@@ -76,8 +76,8 @@ internal class Program
         int revenue = thisYearContestants * ticketPrice;
         bool greaterThan = thisYearContestants > lastYearContestants;
 
-        Console.WriteLine($"\nLast year's competition had {lastYearContestants} contestants, and this year's has {thisYearContestants} contestants.");
-        Console.WriteLine($"Revenue expected this year is ${revenue}");
+        //Console.WriteLine($"\nLast year's competition had {lastYearContestants} contestants, and this year's has {thisYearContestants} contestants.");
+        //Console.WriteLine($"Revenue expected this year is ${revenue}");
 
         if (thisYearContestants > 2 * lastYearContestants)
         {
@@ -85,7 +85,7 @@ internal class Program
         }
       else if (thisYearContestants > lastYearContestants)
       {
-        Console.WriteLine("The competition is as big as ever!");
+        Console.WriteLine("The competition is more than twice as big tis year!");
         }
       else
       {
