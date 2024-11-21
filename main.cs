@@ -85,7 +85,7 @@ internal class Program
         }
       else if (thisYearContestants > lastYearContestants)
       {
-        Console.WriteLine("The competition is more than twice as big tis year!");
+        Console.WriteLine("The competition is more than twice as big this year!");
         }
       else
       {
