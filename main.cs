@@ -81,7 +81,7 @@ internal class Program
 
         if (thisYearContestants > 2 * lastYearContestants)
         {
-          Console.WriteLine("The competition is more than twice as big this year!");
+          Console.WriteLine("The competition is bigger than ever!");
         }
       else if (thisYearContestants > lastYearContestants)
       {
@@ -93,3 +93,4 @@ internal class Program
       }
       }
     }
+//20241121_RobertsonXiomar_0-3
